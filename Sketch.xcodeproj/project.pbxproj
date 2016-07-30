@@ -15,8 +15,7 @@
 		6367CEF61D3338290028270D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6367CEF41D3338290028270D /* LaunchScreen.storyboard */; };
 		6367CF011D3338290028270D /* SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF001D3338290028270D /* SketchTests.m */; };
 		6367CF0C1D3338290028270D /* SketchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF0B1D3338290028270D /* SketchUITests.m */; };
-		6367CF1B1D3338B50028270D /* MainQ&AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF1A1D3338B50028270D /* MainQ&AViewController.m */; };
-		6367CF1E1D3338E40028270D /* MainSkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF1D1D3338E40028270D /* MainSkillViewController.m */; };
+		6367CF1B1D3338B50028270D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF1A1D3338B50028270D /* MainViewController.m */; };
 		6367CF281D34953A0028270D /* DetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF271D34953A0028270D /* DetailPageViewController.m */; };
 		6367CF2B1D34A54D0028270D /* MainTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6367CF2A1D34A54D0028270D /* MainTeacherViewController.m */; };
 		6375CA251D44B03500958DC5 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6375CA241D44B03500958DC5 /* 01.jpg */; };
@@ -24,6 +23,12 @@
 		6375CA301D477EB500958DC5 /* PersonalMainPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6375CA2F1D477EB500958DC5 /* PersonalMainPageStoryboard.storyboard */; };
 		6375CA391D48A6C100958DC5 /* PurchaseConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA381D48A6C100958DC5 /* PurchaseConfirmViewController.m */; };
 		6375CA4B1D4A004F00958DC5 /* PKYStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA4A1D4A004F00958DC5 /* PKYStepper.m */; };
+		6375CA4E1D4B2B0D00958DC5 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA4D1D4B2B0D00958DC5 /* MineViewController.m */; };
+		6375CA511D4B781B00958DC5 /* MyReleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA501D4B781B00958DC5 /* MyReleaseViewController.m */; };
+		6375CA541D4C41BE00958DC5 /* MyPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA531D4C41BE00958DC5 /* MyPurchaseViewController.m */; };
+		6375CA571D4C48B800958DC5 /* MySaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA561D4C48B800958DC5 /* MySaleViewController.m */; };
+		6375CA5A1D4C4DC400958DC5 /* MyQ&AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA591D4C4DC400958DC5 /* MyQ&AViewController.m */; };
+		6375CA5D1D4C4F8900958DC5 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CA5C1D4C4F8900958DC5 /* OrderDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +65,8 @@
 		6367CF071D3338290028270D /* SketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6367CF0B1D3338290028270D /* SketchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchUITests.m; sourceTree = "<group>"; };
 		6367CF0D1D3338290028270D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6367CF191D3338B50028270D /* MainQ&AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainQ&AViewController.h"; sourceTree = "<group>"; };
-		6367CF1A1D3338B50028270D /* MainQ&AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainQ&AViewController.m"; sourceTree = "<group>"; };
-		6367CF1C1D3338E40028270D /* MainSkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSkillViewController.h; sourceTree = "<group>"; };
-		6367CF1D1D3338E40028270D /* MainSkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSkillViewController.m; sourceTree = "<group>"; };
+		6367CF191D3338B50028270D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6367CF1A1D3338B50028270D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6367CF261D34953A0028270D /* DetailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageViewController.h; sourceTree = "<group>"; };
 		6367CF271D34953A0028270D /* DetailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageViewController.m; sourceTree = "<group>"; };
 		6367CF291D34A54D0028270D /* MainTeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTeacherViewController.h; sourceTree = "<group>"; };
@@ -76,6 +79,18 @@
 		6375CA381D48A6C100958DC5 /* PurchaseConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseConfirmViewController.m; sourceTree = "<group>"; };
 		6375CA491D4A004F00958DC5 /* PKYStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKYStepper.h; sourceTree = "<group>"; };
 		6375CA4A1D4A004F00958DC5 /* PKYStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKYStepper.m; sourceTree = "<group>"; };
+		6375CA4C1D4B2B0D00958DC5 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		6375CA4D1D4B2B0D00958DC5 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		6375CA4F1D4B781B00958DC5 /* MyReleaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReleaseViewController.h; sourceTree = "<group>"; };
+		6375CA501D4B781B00958DC5 /* MyReleaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReleaseViewController.m; sourceTree = "<group>"; };
+		6375CA521D4C41BE00958DC5 /* MyPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPurchaseViewController.h; sourceTree = "<group>"; };
+		6375CA531D4C41BE00958DC5 /* MyPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPurchaseViewController.m; sourceTree = "<group>"; };
+		6375CA551D4C48B800958DC5 /* MySaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySaleViewController.h; sourceTree = "<group>"; };
+		6375CA561D4C48B800958DC5 /* MySaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySaleViewController.m; sourceTree = "<group>"; };
+		6375CA581D4C4DC400958DC5 /* MyQ&AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyQ&AViewController.h"; sourceTree = "<group>"; };
+		6375CA591D4C4DC400958DC5 /* MyQ&AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyQ&AViewController.m"; sourceTree = "<group>"; };
+		6375CA5B1D4C4F8900958DC5 /* OrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		6375CA5C1D4C4F8900958DC5 /* OrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +121,24 @@
 		632609011D3F80550096D9DB /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
-				6367CF191D3338B50028270D /* MainQ&AViewController.h */,
-				6367CF1A1D3338B50028270D /* MainQ&AViewController.m */,
-				6367CF1C1D3338E40028270D /* MainSkillViewController.h */,
-				6367CF1D1D3338E40028270D /* MainSkillViewController.m */,
+				6367CF191D3338B50028270D /* MainViewController.h */,
+				6367CF1A1D3338B50028270D /* MainViewController.m */,
 				6367CF261D34953A0028270D /* DetailPageViewController.h */,
 				6367CF271D34953A0028270D /* DetailPageViewController.m */,
 				6367CF291D34A54D0028270D /* MainTeacherViewController.h */,
 				6367CF2A1D34A54D0028270D /* MainTeacherViewController.m */,
+				6375CA4C1D4B2B0D00958DC5 /* MineViewController.h */,
+				6375CA4D1D4B2B0D00958DC5 /* MineViewController.m */,
+				6375CA4F1D4B781B00958DC5 /* MyReleaseViewController.h */,
+				6375CA501D4B781B00958DC5 /* MyReleaseViewController.m */,
+				6375CA521D4C41BE00958DC5 /* MyPurchaseViewController.h */,
+				6375CA531D4C41BE00958DC5 /* MyPurchaseViewController.m */,
+				6375CA551D4C48B800958DC5 /* MySaleViewController.h */,
+				6375CA561D4C48B800958DC5 /* MySaleViewController.m */,
+				6375CA581D4C4DC400958DC5 /* MyQ&AViewController.h */,
+				6375CA591D4C4DC400958DC5 /* MyQ&AViewController.m */,
+				6375CA5B1D4C4F8900958DC5 /* OrderDetailViewController.h */,
+				6375CA5C1D4C4F8900958DC5 /* OrderDetailViewController.m */,
 				6367CEEF1D3338290028270D /* Main.storyboard */,
 			);
 			name = MainPage;
@@ -340,14 +365,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6375CA511D4B781B00958DC5 /* MyReleaseViewController.m in Sources */,
 				6367CEEB1D3338290028270D /* AppDelegate.m in Sources */,
 				632609061D4069300096D9DB /* PersonalMainPageViewController.m in Sources */,
-				6367CF1B1D3338B50028270D /* MainQ&AViewController.m in Sources */,
-				6367CF1E1D3338E40028270D /* MainSkillViewController.m in Sources */,
+				6375CA5A1D4C4DC400958DC5 /* MyQ&AViewController.m in Sources */,
+				6375CA571D4C48B800958DC5 /* MySaleViewController.m in Sources */,
+				6367CF1B1D3338B50028270D /* MainViewController.m in Sources */,
+				6375CA5D1D4C4F8900958DC5 /* OrderDetailViewController.m in Sources */,
 				6375CA4B1D4A004F00958DC5 /* PKYStepper.m in Sources */,
+				6375CA541D4C41BE00958DC5 /* MyPurchaseViewController.m in Sources */,
 				6367CF281D34953A0028270D /* DetailPageViewController.m in Sources */,
 				6375CA281D471DB900958DC5 /* ServeDetailViewController.m in Sources */,
 				6375CA391D48A6C100958DC5 /* PurchaseConfirmViewController.m in Sources */,
+				6375CA4E1D4B2B0D00958DC5 /* MineViewController.m in Sources */,
 				6367CF2B1D34A54D0028270D /* MainTeacherViewController.m in Sources */,
 				6367CEE81D3338290028270D /* main.m in Sources */,
 			);

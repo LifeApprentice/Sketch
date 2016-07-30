@@ -1,27 +1,30 @@
 //
-//  MainSkillViewController.m
+//  MainViewController.m
 //  Sketch
 //
 //  Created by Huang on 16/7/11.
 //  Copyright © 2016年 Huang. All rights reserved.
 //
 
-#import "MainSkillViewController.h"
+#import "MainViewController.h"
 
-@interface MainSkillViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation MainSkillViewController
-@synthesize showTableView;
+@implementation MainViewController
+@synthesize showTableView,Q_ATableView,switchSegmentedControl;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //tableview = [[UITableView alloc]initWithFrame:CGRectMake(0,289,600,200) style:UITableViewStylePlain];
+    Q_ATableView.dataSource = self;
+    Q_ATableView.delegate = self;
     showTableView.dataSource = self;
     showTableView.delegate = self;
-    [self.view addSubview:showTableView];
+    
+    [self.view addSubview:Q_ATableView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,7 +42,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     //定义个静态字符串为了防止与其他类的tableivew重复
-    static NSString *CellIdentifier =@"Cell";
+    static NSString *CellIdentifier =@"Q_Cell";
     //定义cell的复用性当处理大量数据时减少内存开销
     UITableViewCell *cell = [tableView  dequeueReusableCellWithIdentifier:CellIdentifier];
     
@@ -60,4 +63,19 @@
 }
 */
 
+- (IBAction)valueChange:(UISegmentedControl *)sender {
+    int Index = (int)switchSegmentedControl.selectedSegmentIndex;
+    switch(Index){
+        case 0:{
+            [self.view addSubview:Q_ATableView];
+            break;
+        }
+        case 1:{
+            [self.view addSubview:showTableView];
+            break;
+        }
+        default:
+            break;
+    }
+}
 @end

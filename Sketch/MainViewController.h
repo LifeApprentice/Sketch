@@ -1,5 +1,5 @@
 //
-//  MainQ&AViewController.h
+//  MainViewController.h
 //  Sketch
 //
 //  Created by Huang on 16/7/11.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainQ_AViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *switchSegmentedControl;
 - (IBAction)valueChange:(UISegmentedControl *)sender;
