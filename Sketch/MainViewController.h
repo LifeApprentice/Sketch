@@ -8,11 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface MainViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *switchSegmentedControl;
 - (IBAction)valueChange:(UISegmentedControl *)sender;
-@property (weak, nonatomic) IBOutlet UITableView *Q_ATableView;
-@property (weak, nonatomic) IBOutlet UITableView *showTableView;
-//@property(strong,nonatomic)UITableView *tableview;
+@property (weak, nonatomic) IBOutlet UIScrollView *mainScrollView;
+@property (weak, nonatomic) IBOutlet UIView *mainContentView;
+
+@property (strong, nonatomic) UIView *helpView;
+@property (strong, nonatomic) UIView *skillView;
+@property (weak, nonatomic) IBOutlet UIButton *interest;
+@property (weak, nonatomic) IBOutlet UIButton *sketch;
+
+
+
 @end

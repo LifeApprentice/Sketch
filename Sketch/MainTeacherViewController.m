@@ -13,13 +13,19 @@
 @end
 
 @implementation MainTeacherViewController
-@synthesize displayTableView;
+@synthesize mainScrollView;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    mainScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 114, self.view.frame.size.width, self.view.frame.size.height-163)];
+    mainScrollView.contentSize = CGSizeMake(0, 1200);
+    mainScrollView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:mainScrollView];
+    
+    
     // Do any additional setup after loading the view.
-    displayTableView.dataSource = self;
-    displayTableView.delegate = self;
-    [self.view addSubview:displayTableView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,6 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
@@ -48,6 +56,8 @@
     
     return cell;
 }
+ 
+ */
 
 /*
 #pragma mark - Navigation

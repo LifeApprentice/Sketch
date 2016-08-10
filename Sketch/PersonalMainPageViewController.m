@@ -39,6 +39,7 @@
     photoPageControl.enabled = NO;//禁止默认的点击功能
     [mainContentView addSubview:photoPageControl];
     
+    mainScrollView.backgroundColor = [UIColor lightGrayColor];
     mainScrollView.panGestureRecognizer.delaysTouchesBegan = YES; //使scrollView上的button不会挡掉滑动手势，但同时导致button没有点击效果
     //mainScrollView.delaysContentTouches = NO;
     mainScrollView.showsVerticalScrollIndicator = NO;//不显示拖动条
@@ -47,10 +48,10 @@
     //introduceLable.lineBreakMode = NSLineBreakByWordWrapping;
     introduceLabel.numberOfLines = 0;
     
-    /*Lable设置为圆角需要多加一行*/
+    /*Lable设置为圆角*/
     remindLabel.numberOfLines = 0;
     //remindLable.layer.cornerRadius = 10;
-    remindLabel.clipsToBounds = YES;
+    remindLabel.clipsToBounds = YES;//Lable设置为圆角需要多加一行
     
     
     for (int i=0; i<2; i++) {

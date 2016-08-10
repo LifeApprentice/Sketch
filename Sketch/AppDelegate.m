@@ -16,6 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //消除tabbar底色
+    //[[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc]init]];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

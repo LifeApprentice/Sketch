@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainTeacherViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UITableView *displayTableView;
+@interface MainTeacherViewController : UIViewController
+@property (strong, nonatomic)  UIScrollView *mainScrollView;
 
 @end
